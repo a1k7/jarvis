@@ -37,4 +37,10 @@ $(document).ready(function () {
             sync:true,
         },
       });
+      // mic button selector //
+      $("#MicBtn").click(function () { 
+        $("#oval").attr("hidden", true);
+        $("#siriwave").attr("hidden", false);
+        
+      });
 });
